@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./images/stars-bg.png');
+    background-size: cover; */
+  background-color: #EDF2F4;
 }
 
 code {
