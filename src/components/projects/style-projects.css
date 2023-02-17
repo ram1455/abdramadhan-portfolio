@@ -5,11 +5,21 @@
     align-items: center;
     padding: 0px 60px;
     margin-top: 120px;
+    color: #2B2D42;;
 }
 
-.title-projects{
+.title{
     font-size: 12vh;
-    /* margin-bottom: 20px; */
+    margin-bottom: 14vh;
+}
+
+.title-project {
+    margin-bottom:1vh ;
+}
+
+.tools {
+    font-size: 24px;
+    margin-bottom:5vh ;
 }
 
 .project {
