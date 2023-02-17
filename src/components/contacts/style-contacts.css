@@ -1,0 +1,13 @@
+.logo {
+    width: 15vh;
+    margin: 80px 60px;
+}
+
+.contacts {
+    color: #2B2D42;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+}

@@ -13,7 +13,7 @@ import coreldraw from "../../images/coreldraw.png"
 
 export default function Main() {
   return (
-    <main>
+    <main id='skills'>
       <h1 className='myskills'>MY SKILLS</h1>
       <div className='skills-container'>
         <div className="skills-logo">

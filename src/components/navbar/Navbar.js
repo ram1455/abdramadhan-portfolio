@@ -3,11 +3,11 @@ import "./style.css"
 export default function Navbar() {
   return (
     <nav>
-      <p>HOME</p>
-      <p>ABOUT</p>
-      <p>SKILLS</p>
-      <p>PROJECTS</p>
-      <p>CONTACTS</p>
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#contacts">CONTACTS</a>
     </nav>
   )
 }

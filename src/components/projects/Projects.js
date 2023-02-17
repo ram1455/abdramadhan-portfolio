@@ -8,14 +8,14 @@ import helmetShop from "../../images/Screenshot_277.png"
 
 export default function Projects() {
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
     <h1 className='title'>MY PROJECTS</h1>
 
         <div className="project meme-generator">
             <h1 className='title-project'>MEME GENERATOR</h1>
             <h3 className='tools'>ReactJS - Javascript - CSS3</h3>
             <div className='project_content'>
-            <a href="https://meme-generator-one-eta.vercel.app/" target={"_blank"}>
+            <a href="https://meme-generator-one-eta.vercel.app/" target={"_blank"} rel="noreferrer">
                 <img className='project-image' src={memeGenerator} alt="" />
             </a>
             </div>
@@ -24,7 +24,7 @@ export default function Projects() {
             <h1 className='title-project'>COUNTRIES GALLERY</h1>
             <h3 className='tools'>ReactJS - Javascript - CSS3</h3>
             <div className='project_content'>
-            <a href=" https://countries-gallery.vercel.app/" target={"_blank"}>
+            <a href=" https://countries-gallery.vercel.app/" target={"_blank"} rel="noreferrer">
             <img className='project-image' src={countryGallery} alt="" />
             </a>
             </div>
@@ -34,7 +34,7 @@ export default function Projects() {
             <h1 className='title-project'>HELMET SHOP</h1>
             <h3 className='tools'>ReactJS - Javascript - CSS3</h3>
             <div className='project_content'>
-            <a href="https://helmet-shop-tng.vercel.app/" target={"_blank"}>
+            <a href="https://helmet-shop-tng.vercel.app/" target={"_blank"} rel="noreferrer">
                 <img className='project-image' src={helmetShop} alt="" />
             </a>
             </div>

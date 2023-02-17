@@ -5,7 +5,7 @@ import "./style.css"
 
 export default function Hero() {
   return (
-    <header>
+    <header id='about'>
       <div className='hero'>
             <div className='profile-photo-container'/>
             <div className='biodata-container'>
